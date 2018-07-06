@@ -1,0 +1,31 @@
+import mongoose, { Schema } from 'mongoose';
+
+export default mongoose.model('Price', Schema({
+    FROMSYMBOL: String,
+    TOSYMBOL: String,
+    MARKET: String,
+    PRICE: String,
+    LASTUPDATE: String,
+    LASTVOLUME: String,
+    LASTVOLUMETO: String,
+    LASTTRADEID: String,
+    VOLUMEDAY: String,
+    VOLUMEDAYTO: String,
+    VOLUME24HOUR: String,
+    VOLUME24HOURTO: String,
+    OPENDAY: String,
+    HIGHDAY: String,
+    LOWDAY: String,
+    OPEN24HOUR: String,
+    HIGH24HOUR: String,
+    LOW24HOUR: String,
+    LASTMARKET: String,
+    CHANGE24HOUR: String,
+    CHANGEPCT24HOUR: String,
+    CHANGEDAY: String,
+    CHANGEPCTDAY: String,
+    SUPPLY: String,
+    MKTCAP: String,
+    TOTALVOLUME24H: String,
+    TOTALVOLUME24HTO: String
+}));
